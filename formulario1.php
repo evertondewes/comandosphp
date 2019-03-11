@@ -12,6 +12,9 @@
 </html>
 <?php
 
+if(isset($_POST['sexo'])){
+    echo 'Variavel existe<br>';
+}
 echo '<pre>' . print_r($_POST, true). '</pre>';
 
 ?>
